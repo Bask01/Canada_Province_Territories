@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!-- 03-Canada / Prov individual page -->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJAX - JSON</title>
+<link rel="stylesheet" href="../css/mystyles.css">
+<script src="../js/jquery.js"></script>
+<script src="../js/myscriptProv.js"></script>
+
+  <style>
+    .flexArea {display:flex; font-size: 1.25em;  text-align: center; }
+    .flex1 {flex: 2; font-style: italic;}
+    .flex2 {flex: 2; font-weight: bold;}
+    hr {width: 75%; border-width: thick; border-color: red;}
+  </style>
+</head>
+<body>
+	<!-- Header -->
+	<section class="namestyle" id="country"></section>
+  <section style="text-align: center;"><a href="../index.html"><img src="../images/back.png" width="40px"></a></section>
+  <hr>
+	<section class="flexArea">
+    <div class="flex1">Province Name: </div>
+    <div class="flex2" id="pname"></div>
+  </section>
+  <hr>
+  <section class="flexArea">
+    <div class="flex1">Capital: </div>
+    <div class="flex2" id="capital"></div>
+  </section>
+  <hr>
+  <section class="flexArea">
+      <div class="flex1" id="flag"></div>
+      <div class="flex2" id="cities"></div>
+    </section>
+</body>
+</html>
